@@ -17,3 +17,19 @@ Golangでサーバーパフォマンスを記録するツールです
 2020-06-03 10:43:06,Mem UsedPercent:12.98,CPU Usage:6.97
 2020-06-03 10:43:07,Mem UsedPercent:12.97,CPU Usage:0
 ```
+
+# usage
+if you are in Linux
+```
+$ GOOG=linux go build main.go
+```
+
+if you are in Mac
+```
+$ GOOG=darwin go build main.go
+```
+
+if you are in Windows
+```
+$ GOOS=windows go build main.go
+```
